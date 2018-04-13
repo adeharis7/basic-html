@@ -1,0 +1,112 @@
+<html>
+<head>
+<title>Membuat Menu Navigasi</title>
+<link href="stylee.css" rel="stylesheet" type="text/css" media="all" />
+</head>
+
+<body bgcolor="#5CA4A9">
+
+ <!-- MENU -->
+
+<div id="container">
+	<div id="menu" >
+   		<a href="#home">Home</a>
+    	<a href="#about">About</a>
+    	<a href="#skills">Skills</a>
+    	<a href="#project">Project</a>
+    	<a href="#contact">Contact</a>		
+	</div>
+</div>	
+<div id="home">
+<center><img src="poto/slider.jpg" width="100%" height="80%" style=" padding-top: none; padding-bottom: 20px;"></center>
+</div>
+
+<!-- ABOUT ME -->
+
+<div id="about" class="section">
+		<h1> <span>About Me</span> </h1>
+		<p><center> Hey ! I'm <strong> Haris</strong>. Coding Has changed my world. It's not just about </apss>. </br> learning to code gave me <i> problem-solving skills </i> and  </br> a way to cumminicate with others on a technical level.</br> I can also develop websites and use my coding skilss to get a better job.  </br> And I learned it all at <strong> Amikom Yogyakarta</strong> </br> where they build your self-esteem and keep you motivated.  </br> Join me in this rewarding journey.  </br> You'll have fun, get help and learn along the way</center>
+		</p>			
+		<p class="quote"> "Declare Variables, not war" </p>
+	</div>
+
+<!-- MY SKILL -->
+
+	<div id="skills" class="section">
+		<h1> <span>My Skills</span></h1>
+		<ul>
+			<li>HTML <br/> <progress min="0" max="100" value="80"> </progress></li>
+			<li>CSS <br/> <progress min="0" max="50" value="80"> </progress></li>
+			<li>JAVA SCRIPT<br/> <progress min="0" max="100" value="70"> </progress></li>
+		</ul>
+	</div>
+
+<!-- PROJECT -->
+
+<div id="project" class="section">
+	<h1><span>Project</span></h1>
+	<table border="1">
+		<tr>
+			<td><img src="poto/foto1.png" width="400px"></td>
+			<td><img src="poto/foto2.png" width="400px"></td>
+			<td><img src="poto/foto3.png" width="400px"></td>
+		</tr>
+		<tr>
+			<td><img src="poto/foto4.png" width="400px"></td>
+			<td><img src="poto/foto5.png" width="400px"></td>
+			<td><img src="poto/foto6.png" width="400px"></td>
+		</tr>
+		<tr>
+			<td><img src="poto/foto7.png" width="400px"></td>
+			<td><img src="poto/foto8.png" width="400px"></td>
+			<td><img src="poto/foto9.png" width="400px"></td>
+		</tr>
+	</table>
+</div>
+
+<!-- CONTACT -->
+
+<div id="contact" class="section">
+		<h1> <span>Contact Me</span></h1>
+			<form>
+				<center>
+					<table cellpadding="3">
+						<tr>
+							<td><input type="text" name="name" placeholder="Name"/><br/> </td>
+						</tr>
+						<tr>
+							<td><input type="email" name="email" placeholder="Email"/></br></td>
+						</tr>
+						<tr>
+							<td><textarea name="message" placeholder="Message" cols="40" rows="3"></textarea></td>
+						</tr>
+					</table>
+				<input type="submit" value="SEND" class="Submit">
+				</center>
+			</form>
+	</div>
+
+	<div class="Section" id="Contacts">
+		<h1> <span>Follow Me</span></h1>
+			<div class="icon">
+				<center>
+			<img alt="Facebook" src="poto/fb.png" width="5%"/>
+		
+				<img alt="Twitter" src="poto/tw.png" width="5%"/>
+
+				<img alt="Instagram" src="poto/ig.png" width="5%"/>
+
+				<img alt="Youtube" src="poto/yt.png" width="5%"/>
+				</center>
+		 	</div>
+	</div>
+
+<div class="Copyright">
+		
+		&copy; ade haris asegaf. All rights reserved.
+
+	</div>
+
+
+</body>
+</html>
